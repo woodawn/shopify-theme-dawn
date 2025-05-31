@@ -8,9 +8,15 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "footer-group.json",
-  "context": {
-    "market": "mexico"
-  },
-  "sections": {}
+  "markets": {
+    "mexico": {
+      "parent": "@default"
+    },
+    "cn": {
+      "parent": "@default"
+    },
+    "international": {
+      "parent": "@default"
+    }
+  }
 }
